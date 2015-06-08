@@ -1,10 +1,8 @@
 # config/solano.yml
 ---
 test_pattern:
-  - features/*.feature
-  - features/api/*.feature
-  - spec/**/*_spec.rb
   - test_*.py
+  - test_db.py
 sqlite: true
 phantomjs:
   version: '1.8.1'
