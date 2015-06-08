@@ -1,8 +1,10 @@
 # config/solano.yml
 ---
-test_pattern:
-  - test_*.py
-  - test_db.py
+tests:
+  - python test_db.py
+python:
+  python_version: 2.7
+  pip_requirements_file: requirements.txt
 sqlite: true
 phantomjs:
   version: '1.8.1'
