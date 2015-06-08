@@ -4,7 +4,7 @@ test_pattern:
   - features/*.feature
   - features/api/*.feature
   - spec/**/*_spec.rb
-  - test/**/*_test.rb
+  - test_*.py
 sqlite: true
 phantomjs:
   version: '1.8.1'
