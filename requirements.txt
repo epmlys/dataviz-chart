@@ -1,10 +1,10 @@
-Flask==0.10.1
-Jinja2==2.7.1
-MarkupSafe==0.18
-Werkzeug==0.9.4
-argparse==1.2.1
-itsdangerous==0.23
-wsgiref==0.1.2
-gunicorn==18
-mock==1.0.1
+1Flask==0.10.1
+1Jinja2==2.7.1
+1MarkupSafe==0.18
+1Werkzeug==0.9.4
+1argparse==1.2.1
+1itsdangerous==0.23
+1wsgiref==0.1.2
+1gunicorn==18
+1mock==1.0.1
 
