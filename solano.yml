@@ -7,9 +7,12 @@ profiles:
   default: 
     tests:
       - python test_db.py
+      - python test2.py
   integra:
     tests:
       - python test_db.py
+      - python test3.py
+      - python test4.py
 python:
   python_version: 2.7
   pip_requirements_file: requirements.txt
