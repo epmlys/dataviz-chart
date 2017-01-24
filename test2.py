@@ -24,7 +24,7 @@ class DbTestCase(unittest.TestCase):
         self.csv_file.close()
 
     def test_build_history(self):
-        self.assertTrue(type(db.build_history) is dict)
+        self.assertTrue(type(db.build_history) is list)
 
     def test_time_durations(self):
         self.assertTrue(type(db.time_duration) is dict)
