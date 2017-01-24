@@ -24,10 +24,10 @@ class DbTestCase(unittest.TestCase):
         self.csv_file.close()
 
     def test_build_history(self):
-        self.assertTrue(type(db.build_history) is list)
+        self.assertTrue(type(db.build_history) is dict)
 
     def test_time_durations(self):
-        self.assertTrue(type(db.time_duration) is list)
+        self.assertTrue(type(db.time_duration) is dict)
 
     def test_create_table(self):
         db.cursor = mock.Mock()
