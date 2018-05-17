@@ -9,7 +9,7 @@ profiles:
     output:
       - out.txt
   integra:
-    script: python testdb.py
+    script: ./bin/pwd
 failure_thresholds:
   - branch: master
     threshold: 3
