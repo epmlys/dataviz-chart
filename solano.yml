@@ -5,9 +5,9 @@ plan:
   - integra
 profiles:
   default: 
-    script: 'bin/pwd'
+    script: bin/runtest
   integra:
-    script: 'python testdb.py'
+    script: python testdb.py
 failure_thresholds:
   - branch: master
     threshold: 1
