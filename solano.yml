@@ -5,12 +5,12 @@ plan:
   - integra
 profiles:
   default: 
-    script: bin/runtest
+    script: sh bin/runtest
   integra:
     script: python testdb.py
 failure_thresholds:
   - branch: master
-    threshold: 1
+    threshold: 3
 python:
   python_version: 2.7
   pip_requirements_file: requirements.txt
