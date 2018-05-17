@@ -1,5 +1,6 @@
 # config/solano.yml
 ---
+script: 'bin/pwd'
 plan:
   - default
   - integra
@@ -30,5 +31,3 @@ python:
 sqlite: true
 phantomjs:
   version: '1.8.1'
-script: bin/pwd
-
