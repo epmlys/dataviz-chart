@@ -6,6 +6,8 @@ plan:
 profiles:
   default: 
     script: ./bin/runtest.sh
+    output:
+      - out.txt
   integra:
     script: python testdb.py
 failure_thresholds:
