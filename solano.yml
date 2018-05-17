@@ -7,7 +7,7 @@ profiles:
   default: 
     script: 'bin/pwd'
   integra:
-    script: 'bin/pwd'
+    script: 'python testdb.py'
 failure_thresholds:
   - branch: master
     threshold: 1
