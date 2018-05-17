@@ -5,7 +5,7 @@ plan:
   - integra
 profiles:
   default: 
-    script: ./test2.py
+    script: ./bin/runtest.sh
     output:
       - out.txt
   integra:
