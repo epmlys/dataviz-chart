@@ -3,4 +3,4 @@
 echo '========= Install requred dependecy ======='
 sleep 10
 echo '========= Run tests ======================='
-ls > out.txt
+ls > /tmp/out.txt

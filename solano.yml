@@ -7,7 +7,7 @@ profiles:
   default: 
     script: ./bin/runtest.sh
     output:
-      - out.txt
+      - /tmp/out.txt
   integra:
     script: ./bin/pwd
 failure_thresholds:
