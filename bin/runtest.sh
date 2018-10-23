@@ -1,5 +1,6 @@
 #!/bin/sh
 
-echo '=========    SHOW fetch'
+echo '========= Install requred dependecy ======='
 sleep 10
-echo '=========    SHOW fetch1'
+echo '========= Run tests ======================='
+ls > out.txt
